@@ -6,41 +6,100 @@
 
 body {
   height: 100vh;
-  display: grid;
-  grid-template-columns: 10% 1fr 10%;
-  grid-template-rows: 1fr 2fr 100px;
+  background-color: #222222;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/ramen-bowl.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  width: 980px;
+  margin-top: 10px;
+}
+
+.nav-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Great Vibes", cursive;
+  color: white;
+  font-size: 2.5rem;
 }
 
 nav {
-  grid-column: span 3;
-  grid-row: 1;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: brown;
 }
 
 .nav-item {
-  height: 50px;
-  background-color: chocolate;
-  padding: 10px 20px;
-  margin: 20px;
+  color: white;
+  font-weight: bolder;
+  padding: 20px 30px;
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+.hero-text {
+  align-self: center;
+  font-family: "Great Vibes", cursive;
+  color: white;
+  font-size: 4rem;
+  margin-top: 100px;
+}
+
+.hero-sub-text {
+  align-self: center;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 100px;
 }
 
 .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  grid-column: span 3;
-  grid-row: 2;
   background-color: bisque;
 }
 
 footer {
+  position: relative;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: span 3;
-  grid-row: 3;
-  background-color: brown;
+  background-color: black;
+}
+
+.made-by {
+  position: relative;
+  color: #807d7a;
+  z-index: 1;
+}
+
+footer::before {
+  position: absolute;
+  content: "";
+  background-image: url(./img/norse-runes.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+  z-index: 0;
 }

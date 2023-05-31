@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  margin: 0px;\\n  padding: 0px;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  height: 100vh;\\n  display: grid;\\n  grid-template-columns: 10% 1fr 10%;\\n  grid-template-rows: 1fr 2fr 100px;\\n}\\n\\nnav {\\n  grid-column: span 3;\\n  grid-row: 1;\\n  display: flex;\\n  justify-content: center;\\n  align-items: flex-start;\\n  background-color: brown;\\n}\\n\\n.nav-item {\\n  height: 50px;\\n  background-color: chocolate;\\n  padding: 10px 20px;\\n  margin: 20px;\\n}\\n\\n.content {\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  grid-column: span 3;\\n  grid-row: 2;\\n  background-color: bisque;\\n}\\n\\nfooter {\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  grid-column: span 3;\\n  grid-row: 3;\\n  background-color: brown;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-restaurant/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/ramen-bowl.jpg */ \"./src/img/ramen-bowl.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./img/norse-runes.png */ \"./src/img/norse-runes.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  margin: 0px;\\n  padding: 0px;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  height: 100vh;\\n  background-color: #222222;\\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\\n}\\n\\nheader {\\n  display: flex;\\n  justify-content: center;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-position: center center;\\n  background-repeat: no-repeat;\\n  background-size: cover;\\n}\\n\\n.header-content {\\n  display: flex;\\n  flex-direction: column;\\n  width: 980px;\\n  margin-top: 10px;\\n}\\n\\n.nav-group {\\n  display: flex;\\n  justify-content: space-between;\\n}\\n\\n.logo {\\n  font-family: \\\"Great Vibes\\\", cursive;\\n  color: white;\\n  font-size: 2.5rem;\\n}\\n\\nnav {\\n  display: flex;\\n}\\n\\n.nav-item {\\n  color: white;\\n  font-weight: bolder;\\n  padding: 20px 30px;\\n  transition: 0.3s;\\n}\\n\\n.nav-item:hover {\\n  background-color: rgba(255, 255, 255, 0.3);\\n  color: black;\\n}\\n\\n.hero-text {\\n  align-self: center;\\n  font-family: \\\"Great Vibes\\\", cursive;\\n  color: white;\\n  font-size: 4rem;\\n  margin-top: 100px;\\n}\\n\\n.hero-sub-text {\\n  align-self: center;\\n  color: white;\\n  font-size: 1rem;\\n  text-transform: uppercase;\\n  letter-spacing: 5px;\\n  margin-bottom: 100px;\\n}\\n\\n.content {\\n  background-color: bisque;\\n}\\n\\nfooter {\\n  position: relative;\\n  height: 200px;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  background-color: black;\\n}\\n\\n.made-by {\\n  position: relative;\\n  color: #807d7a;\\n  z-index: 1;\\n}\\n\\nfooter::before {\\n  position: absolute;\\n  content: \\\"\\\";\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n  background-position: center center;\\n  background-repeat: no-repeat;\\n  background-size: cover;\\n  top: 0px;\\n  right: 0px;\\n  bottom: 0px;\\n  left: 0px;\\n  opacity: 0.3;\\n  z-index: 0;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-restaurant/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://odin-restaurant/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://odin-restaurant/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -136,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _home_page_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home-page.js */ \"./src/home-page.js\");\n/* harmony import */ var _menu_page_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu-page.js */ \"./src/menu-page.js\");\n/* harmony import */ var _booking_page_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./booking-page.js */ \"./src/booking-page.js\");\n\n\n\n\n\nconst nav = document.querySelector(\"nav\");\nconst content = document.querySelector(\".content\");\nconst footer = document.querySelector(\"footer\");\n\nfunction createNav() {\n  const homeTab = document.createElement(\"div\");\n  homeTab.textContent = \"Home\";\n  homeTab.classList.add(\"nav-item\");\n  nav.appendChild(homeTab);\n  homeTab.addEventListener(\"click\", function () {\n    while (content.firstChild) {\n      content.removeChild(content.firstChild);\n    }\n    (0,_home_page_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  });\n\n  const menuTab = document.createElement(\"div\");\n  menuTab.textContent = \"Menu\";\n  menuTab.classList.add(\"nav-item\");\n  nav.appendChild(menuTab);\n  menuTab.addEventListener(\"click\", function () {\n    while (content.firstChild) {\n      content.removeChild(content.firstChild);\n    }\n    (0,_menu_page_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n  });\n\n  const bookingTab = document.createElement(\"div\");\n  bookingTab.textContent = \"Booking\";\n  bookingTab.classList.add(\"nav-item\");\n  nav.appendChild(bookingTab);\n  bookingTab.addEventListener(\"click\", function () {\n    while (content.firstChild) {\n      content.removeChild(content.firstChild);\n    }\n    (0,_booking_page_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n  });\n}\n\nfunction createFooter() {\n  const madeBy = document.createElement(\"p\");\n  madeBy.textContent = \"Odin Restaurant Page Made By Ekaterina Furman\";\n  footer.appendChild(madeBy);\n}\n\ncreateNav();\n(0,_home_page_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\ncreateFooter();\n\n\n//# sourceURL=webpack://odin-restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _home_page_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home-page.js */ \"./src/home-page.js\");\n/* harmony import */ var _menu_page_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu-page.js */ \"./src/menu-page.js\");\n/* harmony import */ var _booking_page_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./booking-page.js */ \"./src/booking-page.js\");\n\n\n\n\n\nconst header = document.querySelector(\".header-content\");\nconst content = document.querySelector(\".content\");\nconst footer = document.querySelector(\"footer\");\n\nfunction createNav() {\n  const nav = document.createElement(\"nav\");\n  const navGroup = document.createElement(\"div\");\n  navGroup.classList.add(\"nav-group\");\n  const titleLogo = document.createElement(\"h1\");\n  titleLogo.textContent = \"Odin Cuisine\";\n  titleLogo.classList.add(\"logo\");\n  navGroup.appendChild(titleLogo);\n  navGroup.appendChild(nav);\n  header.appendChild(navGroup);\n\n  const homeTab = document.createElement(\"div\");\n  homeTab.textContent = \"Home\";\n  homeTab.classList.add(\"nav-item\");\n  nav.appendChild(homeTab);\n  homeTab.addEventListener(\"click\", function () {\n    while (content.firstChild) {\n      content.removeChild(content.firstChild);\n    }\n    (0,_home_page_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  });\n\n  const menuTab = document.createElement(\"div\");\n  menuTab.textContent = \"Menu\";\n  menuTab.classList.add(\"nav-item\");\n  nav.appendChild(menuTab);\n  menuTab.addEventListener(\"click\", function () {\n    while (content.firstChild) {\n      content.removeChild(content.firstChild);\n    }\n    (0,_menu_page_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n  });\n\n  const bookingTab = document.createElement(\"div\");\n  bookingTab.textContent = \"Booking\";\n  bookingTab.classList.add(\"nav-item\");\n  nav.appendChild(bookingTab);\n  bookingTab.addEventListener(\"click\", function () {\n    while (content.firstChild) {\n      content.removeChild(content.firstChild);\n    }\n    (0,_booking_page_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n  });\n}\n\nfunction createHero() {\n  const heroText = document.createElement(\"h2\");\n  heroText.textContent = \"Legendary Specialities\";\n  heroText.classList.add(\"hero-text\");\n  const heroSubText = document.createElement(\"p\");\n  heroSubText.textContent = \"In the heart of Valhalla\";\n  heroSubText.classList.add(\"hero-sub-text\");\n  header.append(heroText, heroSubText);\n}\n\nfunction createFooter() {\n  const madeBy = document.createElement(\"p\");\n  madeBy.textContent = \"Odin Restaurant Page Made By Ekaterina Furman\";\n  madeBy.classList.add(\"made-by\");\n  footer.appendChild(madeBy);\n}\n\ncreateNav();\ncreateHero();\n(0,_home_page_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\ncreateFooter();\n\n\n//# sourceURL=webpack://odin-restaurant/./src/index.js?");
 
 /***/ }),
 
@@ -147,6 +157,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ createMenu)\n/* harmony export */ });\nconst content = document.querySelector(\".content\");\n\nfunction createMenu() {\n  const welcome = document.createElement(\"p\");\n  welcome.textContent = \"Welcome to the Menu Page!\";\n  content.appendChild(welcome);\n}\n\n\n//# sourceURL=webpack://odin-restaurant/./src/menu-page.js?");
+
+/***/ }),
+
+/***/ "./src/img/norse-runes.png":
+/*!*********************************!*\
+  !*** ./src/img/norse-runes.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"eeaec41a1a823206f2ff.png\";\n\n//# sourceURL=webpack://odin-restaurant/./src/img/norse-runes.png?");
+
+/***/ }),
+
+/***/ "./src/img/ramen-bowl.jpg":
+/*!********************************!*\
+  !*** ./src/img/ramen-bowl.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6523b07de4b6cb446027.jpg\";\n\n//# sourceURL=webpack://odin-restaurant/./src/img/ramen-bowl.jpg?");
 
 /***/ })
 
@@ -176,6 +206,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -201,6 +234,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -215,6 +260,55 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
