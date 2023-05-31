@@ -2,6 +2,8 @@ import "./style.css";
 import createHome from "./home-page.js";
 import createMenu from "./menu-page.js";
 import createBooking from "./booking-page.js";
+import odinLogo from "./img/odin-logo.png";
+import cutleryLogo from "./img/cutlery-logo.png";
 
 const header = document.querySelector(".header-content");
 const content = document.querySelector(".content");
@@ -11,10 +13,17 @@ function createNav() {
   const nav = document.createElement("nav");
   const navGroup = document.createElement("div");
   navGroup.classList.add("nav-group");
-  const titleLogo = document.createElement("h1");
-  titleLogo.textContent = "Odin Cuisine";
-  titleLogo.classList.add("logo");
-  navGroup.appendChild(titleLogo);
+
+  const logo = document.createElement("img");
+  logo.src = odinLogo;
+  logo.classList.add("logo");
+
+  const logoTitle = document.createElement("h1");
+  logoTitle.textContent = "Odin Cuisine";
+  logoTitle.classList.add("logo-title");
+
+  navGroup.appendChild(logo);
+  navGroup.appendChild(logoTitle);
   navGroup.appendChild(nav);
   header.appendChild(navGroup);
 
@@ -60,6 +69,12 @@ function createHero() {
   heroSubText.textContent = "In the heart of Valhalla";
   heroSubText.classList.add("hero-sub-text");
   header.append(heroText, heroSubText);
+
+  const cutlery = document.createElement("img");
+  cutlery.src = cutleryLogo;
+  cutlery.classList.add("cutlery");
+
+  header.appendChild(cutlery);
 }
 
 function createFooter() {

@@ -22,19 +22,30 @@ header {
 .header-content {
   display: flex;
   flex-direction: column;
-  width: 980px;
+  width: 1000px;
   margin-top: 10px;
 }
 
 .nav-group {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
+  background-repeat: no-repeat;
+  height: 100px;
+  width: auto;
+}
+
+.logo-title {
+  position: absolute;
   font-family: "Great Vibes", cursive;
+  font-weight: 100;
   color: white;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  top: 100px;
+  left: 0px;
 }
 
 nav {
@@ -42,8 +53,8 @@ nav {
 }
 
 .nav-item {
+  height: 60px;
   color: white;
-  font-weight: bolder;
   padding: 20px 30px;
   transition: 0.3s;
 }
@@ -56,6 +67,7 @@ nav {
 .hero-text {
   align-self: center;
   font-family: "Great Vibes", cursive;
+  font-weight: 100;
   color: white;
   font-size: 4rem;
   margin-top: 100px;
@@ -67,11 +79,64 @@ nav {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 5px;
+}
+
+.cutlery {
+  align-self: center;
+  width: 200px;
+  height: auto;
   margin-bottom: 100px;
 }
 
 .content {
-  background-color: bisque;
+  background-color: white;
+}
+
+.welcome-wrap {
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/wood-texture-light.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-content {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome-text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.welcome-title {
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 0.7;
+}
+
+.welcome-sub {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #c2a15b;
+  margin-bottom: 20px;
+}
+
+.welcome-story {
+  text-align: center;
+}
+
+.welcome-image {
+  height: 300px;
+  width: auto;
+  margin: 50px;
 }
 
 footer {
