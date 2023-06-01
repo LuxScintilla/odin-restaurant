@@ -13,7 +13,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-  background-image: url(./img/ramen-bowl.jpg);
+  background-image: url(./img/steak.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@ header {
 .nav-group {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .logo {
@@ -50,10 +50,12 @@ header {
 
 nav {
   display: flex;
+  margin-left: 20px;
 }
 
 .nav-item {
   height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 20px 30px;
   transition: 0.3s;
@@ -199,32 +201,132 @@ nav {
   font-weight: bolder;
 }
 
+.dessert-wrap {
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/dessert.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dessert-content {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dessert-title {
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px #000000;
+  line-height: 0.7;
+}
+
+.dessert-sub-title {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #c2a15b;
+  text-shadow: 1px 1px #000000;
+  margin-bottom: 50px;
+}
+
+.dessert-menu {
+  color: white;
+}
+
+.drink-wrap {
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/wood-texture-light.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.drink-content {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.drink-title {
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 0.7;
+}
+
+.drink-sub-title {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #c2a15b;
+  margin-bottom: 50px;
+}
+
 footer {
-  position: relative;
-  height: 200px;
+  background-image: url(./img/norse-runes.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
 }
 
-.made-by {
-  position: relative;
-  color: #807d7a;
-  z-index: 1;
+.project-content {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-footer::before {
-  position: absolute;
-  content: "";
-  background-image: url(./img/norse-runes.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.3;
-  z-index: 0;
+.project-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project {
+  color: #807d7a;
+}
+
+.madeBy {
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  font-size: 2rem;
+  color: white;
+}
+
+.project-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-button {
+  display: block;
+  background-color: #c2a15b;
+  color: black;
+  width: 200px;
+  padding: 10px 0px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.github-button:hover {
+  background-color: #c4ff55;
 }

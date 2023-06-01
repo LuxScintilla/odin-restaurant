@@ -36,6 +36,52 @@ export default function createMenu() {
     itemStirFry()
   );
   menuContent.appendChild(menuContainer);
+
+  const dessertWrap = document.createElement("section");
+  dessertWrap.classList.add("dessert-wrap");
+  content.appendChild(dessertWrap);
+
+  const dessertContent = document.createElement("div");
+  dessertContent.classList.add("dessert-content");
+  dessertWrap.appendChild(dessertContent);
+
+  const dessertTitle = document.createElement("h3");
+  dessertTitle.classList.add("dessert-title");
+  dessertTitle.textContent = "Signature Desserts";
+  dessertContent.appendChild(dessertTitle);
+
+  const dessertSubTitle = document.createElement("p");
+  dessertSubTitle.classList.add("dessert-sub-title");
+  dessertSubTitle.textContent = "Reinvented";
+  dessertContent.appendChild(dessertSubTitle);
+
+  const dessertMenu = document.createElement("div");
+  dessertMenu.classList.add("dessert-menu");
+  dessertMenu.append(itemCheeseCake(), itemBrownies());
+  dessertContent.appendChild(dessertMenu);
+
+  const drinkWrap = document.createElement("section");
+  drinkWrap.classList.add("drink-wrap");
+  content.appendChild(drinkWrap);
+
+  const drinkContent = document.createElement("div");
+  drinkContent.classList.add("drink-content");
+  drinkWrap.appendChild(drinkContent);
+
+  const drinkTitle = document.createElement("h3");
+  drinkTitle.classList.add("drink-title");
+  drinkTitle.textContent = "Our Drinks";
+  drinkContent.appendChild(drinkTitle);
+
+  const drinkSubTitle = document.createElement("p");
+  drinkSubTitle.classList.add("drink-sub-title");
+  drinkSubTitle.textContent = "Refreshing";
+  drinkContent.appendChild(drinkSubTitle);
+
+  const drinkMenu = document.createElement("div");
+  drinkMenu.classList.add("drink-menu");
+  drinkMenu.append(itemMead(), itemWine());
+  drinkContent.appendChild(drinkMenu);
 }
 
 function menuItem(name, description, price) {
@@ -142,7 +188,7 @@ function itemFishPie() {
   const fishPie = new menuItem(
     "Creamy Fish & Leek Pie",
     "King prawns, salmon and haddock and topped with a comforting, cheesy mash",
-    "8.49"
+    "£8.49"
   );
 
   const foodItem = document.createElement("div");
@@ -238,7 +284,7 @@ function itemRoastTurkey() {
   const roastTurkey = new menuItem(
     "Roast Turkey wrapped in Bacon",
     "Bacon wrapped turkey breast, sausagemeat and cranberry sauce",
-    "10.99"
+    "£10.99"
   );
 
   const foodItem = document.createElement("div");
@@ -293,6 +339,130 @@ function itemStirFry() {
   const foodPrice = document.createElement("p");
   foodPrice.classList.add("food-price");
   foodPrice.textContent = stirFry.price;
+  foodItem.appendChild(foodPrice);
+
+  return foodItem;
+}
+
+function itemCheeseCake() {
+  const cheeseCake = new menuItem(
+    "Strawberry Cheesecake",
+    "Classic summer dessert topped with a sweet strawberry sauce, and fresh strawberries",
+    "£3.99"
+  );
+  const foodItem = document.createElement("div");
+  foodItem.classList.add("food-item");
+
+  const foodTextGroup = document.createElement("div");
+  foodTextGroup.classList.add("food-text-group");
+  foodItem.appendChild(foodTextGroup);
+
+  const foodName = document.createElement("p");
+  foodName.classList.add("food-name");
+  foodName.textContent = cheeseCake.name;
+  foodTextGroup.appendChild(foodName);
+
+  const foodDesc = document.createElement("p");
+  foodDesc.classList.add("food-description");
+  foodDesc.textContent = cheeseCake.description;
+  foodTextGroup.appendChild(foodDesc);
+
+  const foodPrice = document.createElement("p");
+  foodPrice.classList.add("food-price");
+  foodPrice.textContent = cheeseCake.price;
+  foodItem.appendChild(foodPrice);
+
+  return foodItem;
+}
+
+function itemBrownies() {
+  const chocBrownies = new menuItem(
+    "Chocolate Fudge Brownies",
+    "Rich and fudgy, topped with caramel and a side of assorted fresh fruit",
+    "£3.49"
+  );
+  const foodItem = document.createElement("div");
+  foodItem.classList.add("food-item");
+
+  const foodTextGroup = document.createElement("div");
+  foodTextGroup.classList.add("food-text-group");
+  foodItem.appendChild(foodTextGroup);
+
+  const foodName = document.createElement("p");
+  foodName.classList.add("food-name");
+  foodName.textContent = chocBrownies.name;
+  foodTextGroup.appendChild(foodName);
+
+  const foodDesc = document.createElement("p");
+  foodDesc.classList.add("food-description");
+  foodDesc.textContent = chocBrownies.description;
+  foodTextGroup.appendChild(foodDesc);
+
+  const foodPrice = document.createElement("p");
+  foodPrice.classList.add("food-price");
+  foodPrice.textContent = chocBrownies.price;
+  foodItem.appendChild(foodPrice);
+
+  return foodItem;
+}
+
+function itemMead() {
+  const mead = new menuItem(
+    "Mead",
+    "Sweet and refreshing, rich with fruits and spices",
+    "£2.49"
+  );
+  const foodItem = document.createElement("div");
+  foodItem.classList.add("food-item");
+
+  const foodTextGroup = document.createElement("div");
+  foodTextGroup.classList.add("food-text-group");
+  foodItem.appendChild(foodTextGroup);
+
+  const foodName = document.createElement("p");
+  foodName.classList.add("food-name");
+  foodName.textContent = mead.name;
+  foodTextGroup.appendChild(foodName);
+
+  const foodDesc = document.createElement("p");
+  foodDesc.classList.add("food-description");
+  foodDesc.textContent = mead.description;
+  foodTextGroup.appendChild(foodDesc);
+
+  const foodPrice = document.createElement("p");
+  foodPrice.classList.add("food-price");
+  foodPrice.textContent = mead.price;
+  foodItem.appendChild(foodPrice);
+
+  return foodItem;
+}
+
+function itemWine() {
+  const wine = new menuItem(
+    "Wine",
+    "Warm, fruity and full-bodied red wine",
+    "£2.99"
+  );
+  const foodItem = document.createElement("div");
+  foodItem.classList.add("food-item");
+
+  const foodTextGroup = document.createElement("div");
+  foodTextGroup.classList.add("food-text-group");
+  foodItem.appendChild(foodTextGroup);
+
+  const foodName = document.createElement("p");
+  foodName.classList.add("food-name");
+  foodName.textContent = wine.name;
+  foodTextGroup.appendChild(foodName);
+
+  const foodDesc = document.createElement("p");
+  foodDesc.classList.add("food-description");
+  foodDesc.textContent = wine.description;
+  foodTextGroup.appendChild(foodDesc);
+
+  const foodPrice = document.createElement("p");
+  foodPrice.classList.add("food-price");
+  foodPrice.textContent = wine.price;
   foodItem.appendChild(foodPrice);
 
   return foodItem;

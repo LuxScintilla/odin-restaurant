@@ -78,10 +78,38 @@ function createHero() {
 }
 
 function createFooter() {
-  const madeBy = document.createElement("p");
-  madeBy.textContent = "Odin Restaurant Page Made By Ekaterina Furman";
-  madeBy.classList.add("made-by");
-  footer.appendChild(madeBy);
+  const projectContent = document.createElement("section");
+  projectContent.classList.add("project-content");
+  footer.appendChild(projectContent);
+
+  const projectLeft = document.createElement("div");
+  projectLeft.classList.add("project-left");
+  projectContent.appendChild(projectLeft);
+
+  const madeBy = document.createElement("h3");
+  madeBy.textContent = "Ekaterina Furman";
+  madeBy.classList.add("madeBy");
+  projectLeft.appendChild(madeBy);
+
+  const projectOdin = document.createElement("p");
+  projectOdin.textContent = "The Odin Project";
+  projectOdin.classList.add("project");
+  projectLeft.appendChild(projectOdin);
+
+  const projectName = document.createElement("p");
+  projectName.textContent = "JavaScript Project: Restaurant Page";
+  projectName.classList.add("project");
+  projectLeft.appendChild(projectName);
+
+  const projectRight = document.createElement("div");
+  projectRight.classList.add("project-right");
+  projectContent.appendChild(projectRight);
+
+  const gitHubButton = document.createElement("a");
+  gitHubButton.textContent = "My GitHub";
+  gitHubButton.setAttribute("href", "https://github.com/LuxScintilla");
+  gitHubButton.classList.add("github-button");
+  projectRight.appendChild(gitHubButton);
 }
 
 createNav();
