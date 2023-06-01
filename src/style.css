@@ -139,6 +139,66 @@ nav {
   margin: 50px;
 }
 
+.menu-wrap {
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/wood-texture-light.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-content {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.menu-title-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-title {
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 0.7;
+}
+
+.menu-sub {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #c2a15b;
+  margin-bottom: 50px;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 50px;
+}
+
+.food-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.food-name {
+  font-weight: bolder;
+}
+
+.food-price {
+  font-weight: bolder;
+}
+
 footer {
   position: relative;
   height: 200px;
