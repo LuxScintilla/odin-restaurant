@@ -54,6 +54,7 @@ nav {
 }
 
 .nav-item {
+  cursor: pointer;
   height: 60px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
@@ -272,6 +273,74 @@ nav {
   text-transform: uppercase;
   color: #c2a15b;
   margin-bottom: 50px;
+}
+
+.booking-wrap {
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/wood-texture-light.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.booking-content {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.booking-title {
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 0.7;
+}
+
+.booking-sub-title {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #c2a15b;
+  margin-bottom: 50px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.booking-input {
+  width: 300px;
+  height: 2rem;
+  outline: none;
+  border: none;
+  border-left: 5px solid #c2a15b;
+  margin-bottom: 20px;
+}
+
+.booking-input:nth-of-type(4) {
+  height: 4rem;
+}
+
+.booking-button {
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: #c2a15b;
+  border: none;
+  width: 300px;
+  padding: 10px 0px;
+  transition: 0.3s;
+}
+
+.booking-button:hover {
+  background-color: #c4ff55;
 }
 
 footer {
