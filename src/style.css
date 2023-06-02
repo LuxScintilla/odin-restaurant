@@ -10,6 +10,8 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* HEADER ------------------------------------------ */
+
 header {
   display: flex;
   justify-content: center;
@@ -91,9 +93,7 @@ nav {
   margin-bottom: 100px;
 }
 
-.content {
-  background-color: white;
-}
+/* HOME PAGE ------------------------------------------ */
 
 .welcome-wrap {
   display: flex;
@@ -141,6 +141,8 @@ nav {
   width: auto;
   margin: 50px;
 }
+
+/* MENU PAGE ------------------------------------------ */
 
 .menu-wrap {
   display: flex;
@@ -275,6 +277,8 @@ nav {
   margin-bottom: 50px;
 }
 
+/* BOOKING PAGE ------------------------------------------ */
+
 .booking-wrap {
   display: flex;
   justify-content: center;
@@ -342,6 +346,8 @@ nav {
 .booking-button:hover {
   background-color: #c4ff55;
 }
+
+/* FOOTER ------------------------------------------ */
 
 footer {
   background-image: url(./img/norse-runes.jpg);
