@@ -1,6 +1,6 @@
 ![Header](./github-restaurant-banner.jpg)
 
-# odin-todo
+# THE ODIN PROJECT Restaurant-DOM-Manipulation
 
 ### Languages and Tools used in this project
 
